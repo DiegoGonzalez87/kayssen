@@ -1,0 +1,223 @@
+<div class="container p-4">
+    <div class="row">
+        <form action="/pag330" method="POST">
+        <div class="col-md-12 mx-auto">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Las siguientes preguntas están relacionadas con la atención a clientes y usuarios.</h5>
+                </div>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-1 text-center">
+                                <span></span>
+                            </div>
+                            <div class="col-8">                                    
+                                <p>En mi trabajo debo brindar servicio a clientes o usuarios:</p>
+                            </div>
+                            <div class="col-3">
+                                <select name="pcli" id="" class="form-control">
+                                    <option disabled selected>...</option>
+                                    <option value="si">Si</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                        </div>
+                        {{!-- <div class="form-group mt-4 d-flex justify-content-end">
+                            <button class="btn btn-success ">Siguiente <i class="fas fa-angle-double-right"></i></button>
+                        </div> --}}
+                    </div>
+                </div>
+            {{!-- </form> --}}
+            </div>
+        </div>
+        <div class="col-md-12 mx-auto mt-3">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Si su respuesta fue <b>SI</b> por favor responda las siguientes preguntas. Si su respuesta fue <b>NO</b> pase alas preguntas de la siguiente sección:</h5>
+                </div>
+                <div class="card-body">
+                    {{!-- <form action="/pag330" method="POST"> --}}
+                    <div class="container">
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <span>89</span>
+                                </div>
+                                <div class="col-8">                                    
+                                    <p>Atiendo clientes o usuarios muy enojados</p>
+                                </div>
+                                <div class="col-3">
+                                    <select name="p89" id="" class="form-control">
+                                        <option disabled selected>...</option>
+                                        <option value="Siempre">Siempre</option>
+                                        <option value="Casi siempre">Casi siempre</option>
+                                        <option value="Algunas veces">Algunas veces</option>
+                                        <option value="Casi nunca">Casi nunca</option>
+                                        <option value="Nunca">Nunca</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <span>90</span>
+                                </div>
+                                <div class="col-8">                                    
+                                    <p>Atiendo clientes o usuarios muy preocupados</p>
+                                </div>
+                                <div class="col-3">
+                                    <select name="p90" id="" class="form-control">
+                                        <option disabled selected>...</option>
+                                        <option value="Siempre">Siempre</option>
+                                        <option value="Casi siempre">Casi siempre</option>
+                                        <option value="Algunas veces">Algunas veces</option>
+                                        <option value="Casi nunca">Casi nunca</option>
+                                        <option value="Nunca">Nunca</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <span>91</span>
+                                </div>
+                                <div class="col-8">                                    
+                                    <p>Atiendo clientes o usuarios muy tristes</p>
+                                </div>
+                                <div class="col-3">
+                                    <select name="p91" id="" class="form-control">
+                                        <option disabled selected>...</option>
+                                        <option value="Siempre">Siempre</option>
+                                        <option value="Casi siempre">Casi siempre</option>
+                                        <option value="Algunas veces">Algunas veces</option>
+                                        <option value="Casi nunca">Casi nunca</option>
+                                        <option value="Nunca">Nunca</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <span>92</span>
+                                </div>
+                                <div class="col-8">                                    
+                                    <p>Mi trabajo me exige atender personas muy enfermas</p>
+                                </div>
+                                <div class="col-3">
+                                    <select name="p92" id="" class="form-control">
+                                        <option disabled selected>...</option>
+                                        <option value="Siempre">Siempre</option>
+                                        <option value="Casi siempre">Casi siempre</option>
+                                        <option value="Algunas veces">Algunas veces</option>
+                                        <option value="Casi nunca">Casi nunca</option>
+                                        <option value="Nunca">Nunca</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <span>93</span>
+                                </div>
+                                <div class="col-8">                                    
+                                    <p>Mi trabajo me exige atender personas muy necesitadas de ayuda</p>
+                                </div>
+                                <div class="col-3">
+                                    <select name="p93" id="" class="form-control">
+                                        <option disabled selected>...</option>
+                                        <option value="Siempre">Siempre</option>
+                                        <option value="Casi siempre">Casi siempre</option>
+                                        <option value="Algunas veces">Algunas veces</option>
+                                        <option value="Casi nunca">Casi nunca</option>
+                                        <option value="Nunca">Nunca</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <span>94</span>
+                                </div>
+                                <div class="col-8">                                    
+                                    <p>Atiendo clientes o usuarios que me maltratan</p>
+                                </div>
+                                <div class="col-3">
+                                    <select name="p94" id="" class="form-control">
+                                        <option disabled selected>...</option>
+                                        <option value="Siempre">Siempre</option>
+                                        <option value="Casi siempre">Casi siempre</option>
+                                        <option value="Algunas veces">Algunas veces</option>
+                                        <option value="Casi nunca">Casi nunca</option>
+                                        <option value="Nunca">Nunca</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <span>95</span>
+                                </div>
+                                <div class="col-8">                                    
+                                    <p>Mi trabajo me exige atender situaciones de violencia</p>
+                                </div>
+                                <div class="col-3">
+                                    <select name="p95" id="" class="form-control">
+                                        <option disabled selected>...</option>
+                                        <option value="Siempre">Siempre</option>
+                                        <option value="Casi siempre">Casi siempre</option>
+                                        <option value="Algunas veces">Algunas veces</option>
+                                        <option value="Casi nunca">Casi nunca</option>
+                                        <option value="Nunca">Nunca</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <span>96</span>
+                                </div>
+                                <div class="col-8">                                    
+                                    <p>Mi trabajo me exige atender situaciones muy tristes o dolorosas</p>
+                                </div>
+                                <div class="col-3">
+                                    <select name="p96" id="" class="form-control">
+                                        <option disabled selected>...</option>
+                                        <option value="Siempre">Siempre</option>
+                                        <option value="Casi siempre">Casi siempre</option>
+                                        <option value="Algunas veces">Algunas veces</option>
+                                        <option value="Casi nunca">Casi nunca</option>
+                                        <option value="Nunca">Nunca</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-1 text-center">
+                                    <span>97</span>
+                                </div>
+                                <div class="col-8">                                    
+                                    <p>Puedo expresar tristeza o enojo frente a las personas que atiendo</p>
+                                </div>
+                                <div class="col-3">
+                                    <select name="p97" id="" class="form-control">
+                                        <option disabled selected>...</option>
+                                        <option value="Siempre">Siempre</option>
+                                        <option value="Casi siempre">Casi siempre</option>
+                                        <option value="Algunas veces">Algunas veces</option>
+                                        <option value="Casi nunca">Casi nunca</option>
+                                        <option value="Nunca">Nunca</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                                                 
+                            <div class="form-group mt-4 d-flex justify-content-end">
+                                <button class="btn btn-success ">Siguiente <i class="fas fa-angle-double-right"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

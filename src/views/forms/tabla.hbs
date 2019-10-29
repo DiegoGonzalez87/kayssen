@@ -1,0 +1,30 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-12 mx-auto">     
+            <div class="card">
+                <div class="card-body">
+                        <table class="table table-sm table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">{{user.perfil}}</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                            </tr>
+                        </thead>
+                        {{#each data}}
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>{{estado_civil}}</td>
+                            <td>{{usuario}}</td>
+                            <td>@mdo</td>
+                          </tr>
+                        {{/each}}
+                        </tbody>                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

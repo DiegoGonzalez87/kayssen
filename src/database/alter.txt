@@ -1,0 +1,49 @@
+SELECT 
+id, 
+genero, 
+ano_nacimiento, 
+estado_civil, 
+estudios, 
+profesion, 
+resi_ciudad, 
+resi_departamento, 
+estrato, 
+tp_vivienda, 
+n_personas, 
+user_id, 
+created_ad 
+
+data_user
+-------------------------------------------------------
+SELECT id, lt_ciudad, lt_departamento, t_empresa, cargo, tp_cargo, area_cargo, tp_contrato, th_diario, user_id FROM data_user_empresa
+
+id, 
+lt_ciudad, 
+lt_departamento, 
+t_empresa, 
+cargo, 
+tp_cargo, 
+area_cargo, 
+tp_contrato, 
+th_diario
+
+S eleccione el tipo de contrato que tiene actualmente (marque una sola opción)
+Temporal de menos de 1 año
+Temporal de 1 año o más
+Término indefinido
+Cooperado (cooperativa)
+Prestación de servicios
+No sé
+
+Lugar donde trabaja actualmente:
+área o sección de la empresa en el que trabaja
+
+Fijo (diario, semanal, quincenal o mensual)
+Una parte fija y otra variable
+Todo variable (a destajo, por producción, por
+comisión)
+
+Jefatura - ti ene personal a cargo
+Profesional, analista, técnico, tecnólogo
+Auxiliar, asistente administrativo, asistente técnico
+Operario, operador, ayudante, servicios generales

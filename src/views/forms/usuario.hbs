@@ -1,0 +1,107 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-12 mx-auto">
+            <div class="card">
+                    <div class="card-header">
+                        <h3>Datos Personales</h3>
+                    </div>
+                <div class="card-body">
+                    <div class="container">
+                        <form action="/usuario" method="POST">
+                            <div class="row">
+                                <div class="col-md-4">
+                                {{!-- <span>Genero</span> --}}
+                                    <select name="genero" id="" class="form-control">
+                                        <option disabled selected>Genero</option>
+                                        <option value="M">Masculino</option>
+                                        <option value="F">Femenino</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="number" name="ano_nacimiento" id="" class="form-control" placeholder="Año de nacimiento">
+                                </div>
+                                <div class="col-md-4">
+                                    <select name="estado_civil" id="" class="form-control">
+                                        <option disabled selected>Estado Civil</option>
+                                        <option value="Soltero">Soltero (a)</option>
+                                        <option value="Casado">Casado (a)</option>
+                                        <option value="Union Libre">Union Libre</option>
+                                        <option value="Separado">Separado (a)</option>
+                                        <option value="Divorciado">Divorciado (a)</option>
+                                        <option value="Viudo">Viudo (a)</option>
+                                        <option value="Sacerdote/Monja">Sacerdote/Monja</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-md-4">
+                                    <select name="estudios" id="" class="form-control">
+                                        <option disabled selected>Nivel de Estudios</option>
+                                        <option value="Ninguno">Ninguno</option>
+                                        <option value="Primaria incompleta">Primaria incompleta</option>
+                                        <option value="Primaria completa">Primaria completa</option>
+                                        <option value="Bachillerato incompleto">Bachillerato incompleto</option>
+                                        <option value="Bachillerato completo">Bachillerato completo</option>
+                                        <option value="Técnico/tecnológico incompleto">Técnico/tecnológico incompleto</option>
+                                        <option value="Técnico/tecnológico completo">Técnico/tecnológico completo</option>
+                                        <option value="Profesional incompleto">Profesional incompleto</option>
+                                        <option value="Profesional completo">Profesional completo</option>
+                                        <option value="Carrera militar/policía">Carrera militar/policía</option>
+                                        <option value="Post-grado incompleto">Post-grado incompleto</option>
+                                        <option value="Post-grado completo">Post-grado completo</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-8">
+                                    <input type="text" name="profesion" class="form-control" placeholder="¿Cuál es su ocupación o profesión?">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mt-4">
+                                <div class="col-md-4">
+                                    <select name="estrato" id="" class="form-control">
+                                        <option disabled selected>Estrato</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="Finca">Finca</option>
+                                        <option value="no se">No se</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <select name="tp_vivienda" id="" class="form-control">
+                                        <option disabled selected>Tipo de Vivienda</option>
+                                        <option value="Propia">Propia</option>
+                                        <option value="Arriendo">En Arriendo</option>
+                                        <option value="Familiar">Familiar</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="number" name="n_personas" class="form-control" placeholder="# personas que dependen economicamente">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row pt-2" style="border: 1px;">
+                                <div class="col-md-12 mb-2">
+                                    <h5>Lugar de residencia actual:</h5>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="resi_ciudad" class="form-control" placeholder="Ciudad">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="resi_departamento" class="form-control" placeholder="Departamento">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-group mt-4 d-flex justify-content-end">
+                                <button class="btn btn-success ">Siguiente <i class="fas fa-angle-double-right"></i></button>
+                            </div>
+                        </form> 
+                    </div>          
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>

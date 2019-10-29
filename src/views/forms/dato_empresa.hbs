@@ -1,0 +1,86 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-12 mx-auto">
+            <div class="card">
+                    <div class="card-header">
+                        <h3>Datos Empresa</h3>
+                    </div>
+                <div class="card-body">
+                    <div class="container">
+                        <form action="/pag201" method="POST">
+                            <div class="row pt-2">
+                                <div class="col-md-12 mb-2">
+                                    <h5>Lugar donde trabaja actualmente:</h5>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="lt_ciudad" class="form-control" placeholder="Ciudad">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="lt_departamento" class="form-control" placeholder="Departamento">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <input type="text" name="t_empresa" id="" class="form-control" placeholder="Cuanto lleva en empresa">
+                                </div>
+                                <div class="col-md-4">
+                                    <select name="tp_contrato" id="" class="form-control">
+                                        <option disabled selected>Tipo de Contrato</option>
+                                        <option value="Temporal de menos de 1 año">Temporal de menos de 1 año</option>
+                                        <option value="Temporal de 1 año o más">Temporal de 1 año o más</option>
+                                        <option value="Término indefinido">Término indefinido</option>
+                                        <option value="Cooperado (cooperativa)">Cooperado (cooperativa)</option>
+                                        <option value="Prestación de servicios">Prestación de servicios</option>
+                                        <option value="Prestación de servicios">Prestación de servicios</option>
+                                        <option value="Prestación de servicios">No sé</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="numbre" name="th_diario" id="" class="form-control" placeholder="# de horas en el trabajo">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mt-4">
+                                <div class="col-md-4">
+                                    <input type="text" name="cargo" class="form-control" placeholder="Cargo de que tiene en la empresa">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" name="area_cargo" class="form-control" placeholder="Área o sección de la empresa en el que trabaja">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" name="tiempo_cargo" class="form-control" placeholder="Tiempo que lleva en el cargo">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row mt-4">
+                                <div class="col-md-6">
+                                    <select name="tp_salario" id="" class="form-control">
+                                        <option disabled selected>Tipo de Salario</option>
+                                        <option value="fijo">Fijo (diario, semanal, quincenal o mensual)</option>
+                                        <option value="Una parte fija y otra variable">Una parte fija y otra variable</option>
+                                        <option value="Término indefinido">Término indefinido</option>
+                                        <option value="Todo variable (a destajo, por producción, por comisión)">Todo variable (a destajo, por producción, por comisión)</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <select name="tp_cargo" id="" class="form-control">
+                                        <option disabled selected>Tipo de Cargo</option>
+                                        <option value="Jefatura - ti ene personal a cargo">Jefatura - ti ene personal a cargo</option>
+                                        <option value="Profesional, analista, técnico, tecnólogo">Profesional, analista, técnico, tecnólogo</option>
+                                        <option value="Auxiliar, asistente administrativo, asistente técnico">Auxiliar, asistente administrativo, asistente técnico</option>
+                                        <option value="Operario, operador, ayudante, servicios generales">Operario, operador, ayudante, servicios generales</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-group mt-4 d-flex justify-content-end">
+                                <button class="btn btn-success ">Siguiente <i class="fas fa-angle-double-right"></i></button>
+                            </div>
+                        </form> 
+                    </div>          
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
